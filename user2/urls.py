@@ -1,6 +1,10 @@
 from django.urls import path
-from .views import l
+from .views import gallery, pricing, team, reviews, support
 
 urlpatterns = [
-    path('gumisay/', l),
+    path('gallery/', gallery),
+    path('pricing/', pricing),
+    path('team/', team),
+    path('reviews/', reviews),
+    path('support/', support),
 ]
